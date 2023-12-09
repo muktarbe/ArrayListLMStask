@@ -10,6 +10,9 @@ public class Book {//id, name, author, Genre genre
     private Gender gender;
 
     public Book() {
+    }
+
+    public Book( String name, String author, Gender gender) {
         this.id = ++ID;
         this.name = name;
         this.author = author;

@@ -18,6 +18,10 @@ public class Reader {//id, fullName, email, phoneNumber, Gender gender
         this.gender = gender;
     }
 
+    public Reader() {
+
+    }
+
     public static long getID() {
         return ID;
     }

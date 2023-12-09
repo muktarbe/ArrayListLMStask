@@ -16,6 +16,10 @@ public class Library {//id, name, address, List<Book>books, List<Reader>readers
         this.readers = readers;
     }
 
+    public Library() {
+
+    }
+
     public static long getID() {
         return ID;
     }
